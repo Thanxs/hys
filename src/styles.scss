@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../src/app/shared/variables";
+
+@font-face {
+  font-family: "Karla";
+  src: url("../src/app/shared/fonts/qkBbXvYC6trAT7RVLtw.woff2") format("woff2");
+}
+
+body {
+  font-family: "Karla";
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-color: $background_color;
+  color: $white_color;
+}
+
+p {
+  margin: 10px 0;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: $elegant_color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: $background_color;
+}

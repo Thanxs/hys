@@ -1,0 +1,23 @@
+@import "../../shared/variables";
+
+.button {
+  display: inline-block;
+  min-width: 166px;
+  border: 1px solid $elegant_color;
+  background-color: $elegant_color;
+  text-align: center;
+  color: $white_color;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 22px 64px 20px;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #c4391c;
+  }
+}
