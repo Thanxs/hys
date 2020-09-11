@@ -23,9 +23,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: $elegant_color;
+  background: $background_color;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: $background_color;
+  background: $elegant_color;
 }
