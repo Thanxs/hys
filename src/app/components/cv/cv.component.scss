@@ -139,5 +139,23 @@
         margin-bottom: 20px;
       }
     }
+
+    &__work, &__education {
+      &-item {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin-bottom: 25px;
+
+        &-name {
+          text-align: center;
+        }
+      }
+    }
+
+    &__hard-skills, &__soft-skills {
+      &-description {
+        grid-template-columns: 1fr;
+      }
+    }
   }
 }
